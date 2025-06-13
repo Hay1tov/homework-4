@@ -167,7 +167,7 @@ header .contact-button {
   width: 1320px;
   height: 282.42px;
   margin: 130px auto;
-  background-color: #fdd04a;
+  background-color: transparent;
 }
 
 .sponsor p{
@@ -194,7 +194,134 @@ header .contact-button {
   margin-top: 44px;
 }
 
-.home2-img {
-  width: 1600px;
+.home2{
+  max-width: 1600px;
+  width: 100%;
   height: 1072px;
+  background-image: url(../images/home2.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.title{
+  position: relative;
+  top: 130px;
+  width: 1320px;
+  height: 812px;
+  margin: 0 auto;
+}
+
+
+.title>p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 120px;
+  line-height: 1.2;
+  color: #57b8ff;
+  text-align: center;
+}
+.about2 p{
+  font-size: 64px;
+  color: white;
+  margin-bottom: 43px;
+  text-align: center;
+}
+
+.text2 p {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 53px;
+}
+
+.small-container {
+  margin-top: 63px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.box {
+  width: 642px;
+  height: 212px;
+  border-radius: 10px;
+  background-color: rgba(205, 204, 204, 0.191);
+}
+
+.box p{
+  margin-top: 19px;
+  font-size: 18px;
+  color: #999;
+  margin-left: 87.71px;
+}
+
+.box p:first-child{
+  color: white;
+  font-size: 32px;
+  margin-top: 35.42px;
+  margin-left: 87.71px;
+}
+
+.home3 {
+  max-width: 1600px;
+  width: 100%;
+  height: 721px;
+  background-color: #000;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 732.66px;
+  height: 474px;
+  margin-left: 60px;
+}
+
+.card1>p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 120px;
+  line-height: 1.2;
+  color: #57b8ff;
+}
+
+.home3-about p{
+  font-size: 64px;
+  color: white;
+  margin-top: 11px;
+  line-height: 74px;
+}
+
+.home3-text p{
+  font-size: 20px;
+  color: #999;
+  margin-top: 38px;
+  line-height: 30px;
+}
+
+.home3-button p{
+  width: 203px;
+  height: 70px;
+  margin-top: 54px;
+  font-size: 18px;
+  background-color: #57b8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card2 img {
+  width: 492px;
+  height: 550px;
+  margin-top: 86px;
+  margin-right: 60px;
+}
+
+.home4-img img {
+  max-width: 1600px;
+  width: 100%;
+  height: 732px;
 }
