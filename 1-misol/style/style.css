@@ -75,42 +75,6 @@
   overflow: hidden;
 }
 
-.character-main {
-  width: 300px;
-  height: auto;
-  border-radius: 30px;
-  background-color: #fff;
-  padding: 20px;
-  z-index: 1;
-}
-
-.character-small {
-  position: absolute;
-  width: 60px;
-}
-
-.character-top-right {
-  top: 80px;
-  right: 100px;
-}
-
-.character-bottom-left {
-  bottom: 80px;
-  left: 100px;
-}
-
-.live-tag {
-  position: absolute;
-  top: 20px;
-  left: 60%;
-  background-color: red;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
 header {
   display: flex;
   justify-content: space-between;
